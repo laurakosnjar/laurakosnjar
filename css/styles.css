@@ -1960,11 +1960,11 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #212529;
+  --bs-table-striped-color: hsla(0, 100%, 57%, 0.6);
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #212529;
+  --bs-table-active-color: hsla(0, 100%, 57%, 0.6);
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #212529;
+  --bs-table-hover-color: hsla(0, 100%, 57%, 0.6);
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
@@ -2183,7 +2183,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: hsl(0, 0%, 50%);
 }
 
 .form-control {
@@ -2225,15 +2225,15 @@ progress {
   height: 1.5em;
 }
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: hsla(317, 100%, 57%, 0.6) ;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: hsla(317, 100%, 57%, 0.6);
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #6c757d;
+  color: hsla(317, 100%, 57%, 0.6);
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
@@ -2246,7 +2246,7 @@ progress {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color: hsla(9, 100%, 64%, 0.5);
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2262,7 +2262,7 @@ progress {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color: hsla(9, 100%, 64%, 0.5);
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2292,7 +2292,7 @@ progress {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color: rgb(98, 21, 71) ;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2441,7 +2441,7 @@ textarea.form-control-lg {
   background-image: none;
 }
 .form-select:disabled {
-  background-color: #e9ecef;
+  background-color: hsl(0, 32%, 50%);
 }
 .form-select:-moz-focusring {
   color: transparent;
