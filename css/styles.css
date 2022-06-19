@@ -2194,7 +2194,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: hsl(0, 20%, 50%);
+  background-color: hsl(0, 100%, 90%);
   background-clip: padding-box;
   border: 0.125rem solid #ced4da;
   -webkit-appearance: none;
